@@ -51,7 +51,7 @@ export default function Component() {
   {`Cannot connect to server: `}
   {(connectError !== null) ? connectError.message : ''}
   {`. Check if server is reachable at `}
-  {`https://18.185.100.254:8000`}
+  {`https://18.185.100.254`}
 </Text>
 </ModalBody>
 </ModalContent>
