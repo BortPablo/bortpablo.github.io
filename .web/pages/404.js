@@ -52,7 +52,7 @@ export default function Component() {
   {`Cannot connect to server: `}
   {(connectError !== null) ? connectError.message : ''}
   {`. Check if server is reachable at `}
-  {`https://bortpablo.github.io`}
+  {`http://18.185.100.254`}
 </Text>
 </ModalBody>
 </ModalContent>
