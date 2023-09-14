@@ -17,8 +17,6 @@ setup:
 	venv/bin/pip install reflex
 	@echo "Starting VSCode..."
 	code .
-	@echo "Initializing reflex..."
-	reflex init
 
 run:
 	@echo "Running reflex..."
